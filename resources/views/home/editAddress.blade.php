@@ -12,6 +12,8 @@
     @include('header')
     <div style="margin-left: 100px; margin-right: 100px;" class="conent">
         <p style="font-size: 13px; color:#757575">Home / My Account / My Profile</p>
+        {{-- <p style="font-size: 13px; color:#757575">Home / My Account / My Profile</p> --}}
+
         <hr>
         <div style="flex: 1; display: flex">
             <div style="flex: 20%">
