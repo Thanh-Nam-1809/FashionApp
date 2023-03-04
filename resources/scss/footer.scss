@@ -1,0 +1,34 @@
+.footer {
+    background-color: #212121;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding-left: 20px;
+        padding-right: 150px;
+        padding-top: 10px;
+
+        .footer-title {
+            list-style-type: none;
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        .footer-content {
+            list-style-type: none;
+        }
+
+        .footer-icon {
+            font-size: 24px;
+        }
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 10px;
+        color: white;
+    }
+}

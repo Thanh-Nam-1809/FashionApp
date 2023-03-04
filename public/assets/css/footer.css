@@ -1,0 +1,31 @@
+.footer {
+  background-color: #212121;
+}
+.footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-left: 20px;
+  padding-right: 150px;
+  padding-top: 10px;
+}
+.footer .footer-container .footer-title {
+  list-style-type: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+.footer .footer-container .footer-content {
+  list-style-type: none;
+}
+.footer .footer-container .footer-icon {
+  font-size: 24px;
+}
+.footer .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 10px;
+  color: white;
+}
+
+/*# sourceMappingURL=footer.css.map */

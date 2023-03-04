@@ -1,0 +1,240 @@
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* On smaller screens, decrease text size */
+body {
+  margin: 0;
+}
+
+.content {
+  flex: 50%;
+}
+
+.footer {
+  flex: 20%;
+}
+
+.container {
+  margin: 0;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.mySlides {
+  display: block;
+}
+.mySlides .slide {
+  display: flex;
+}
+.mySlides .slide .slide-text-container {
+  flex: 55%;
+  height: 713px;
+  background-color: #F5F5F5;
+}
+.mySlides .slide .slide-text-container .slide-text {
+  margin-top: 202px;
+  margin-left: 100px;
+}
+.mySlides .slide .slide-text-container .slide-text .slide-txt-title {
+  color: #616161;
+  font-size: 39px;
+}
+.mySlides .slide .slide-text-container .slide-text .slide-txt-content {
+  color: #212121;
+  font-size: 63px;
+}
+.mySlides .slide .slide-text-container .slide-text .slide-txt-content2 {
+  color: #424242;
+  font-size: 16px;
+}
+.mySlides .slide .slide-text-container .slide-text .slide-btn {
+  background-color: #212121;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 74px;
+  padding-right: 74px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.mySlides .slide .slide-img-container {
+  flex: 45%;
+  height: 713px;
+}
+.mySlides .slide .slide-img-container .slide-img {
+  width: 100%;
+  height: 713px;
+  overflow: hidden;
+}
+
+.features-container {
+  text-align: center;
+}
+.features-container .features-txt {
+  font-size: 36px;
+}
+.features-container .features-icon {
+  text-align: center;
+}
+
+.multiple-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.multiple-items .multiple-container {
+  width: 397px;
+  height: 532px;
+  margin-right: 13px;
+  margin-left: 13px;
+  border-radius: 4px;
+  border: 1px solid #EEEEEE;
+}
+.multiple-items .multiple-container .multiple-icon-heart {
+  position: absolute;
+  margin: 10px;
+}
+.multiple-items .multiple-container .multiple-img {
+  width: 396px;
+  height: 406px;
+}
+.multiple-items .multiple-container .multiple-txt {
+  padding: 10px;
+}
+.multiple-items .multiple-container .multiple-txt .multiple-title {
+  font-size: 21px;
+  text-decoration: none;
+  color: #212121;
+}
+.multiple-items .multiple-container .multiple-txt .multiple-price {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.collection-container {
+  display: flex;
+  padding: 40px;
+}
+.collection-container .collection {
+  flex: 50%;
+}
+.collection-container .collection .collection-img {
+  width: 261px;
+  height: 261px;
+  margin-left: 350px;
+  position: absolute;
+}
+.collection-container .collection .collection-txt {
+  width: 570px;
+  height: 360px;
+  margin-top: 37px;
+  background-color: #F5F5F5;
+  padding-left: 15px;
+}
+.collection-container .collection .collection-txt .collection-title {
+  width: 280px;
+  padding-top: 165px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.collection-container .collection .collection-txt .collection-content {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.latest-container {
+  text-align: center;
+}
+.latest-container .latest-title {
+  font-size: 36px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-container .product {
+  width: 397px;
+  height: 532px;
+  margin-right: 13px;
+  margin-left: 13px;
+  border-radius: 4px;
+  border: 1px solid #EEEEEE;
+  margin-top: 10px;
+}
+.product-container .product .product-icon-heart {
+  position: absolute;
+  margin: 10px;
+}
+.product-container .product .product-img {
+  width: 396px;
+  height: 406px;
+}
+.product-container .product .product-txt {
+  padding: 10px;
+}
+.product-container .product .product-txt .product-title {
+  font-size: 21px;
+  text-decoration: none;
+  color: #212121;
+}
+.product-container .product .product-txt .product-price {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-see-all {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.btn-see-all .btn-see-all-txt {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
